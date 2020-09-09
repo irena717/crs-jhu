@@ -30,20 +30,29 @@ h1 {
 
 }
 
+div > div > {
+  position: relative;
+}
+
+
 div > div > div {
   position: relative;
-  border: 1px solid black;
-  background-color: gray;
+  /*border: 1px solid black;
+  background-color: gray;*/
   margin: 0.5em;
 
 }
 
+
+/* 背景色和框在p这块 才能和平级的h2重合 */
 p {
+  border: 1px solid black;
+  background-color: gray;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 5px;
-  padding-top: 1.25em; 
-  margin-top: 20px; 
+  padding-top: 2.5em; 
+  /*margin-top: 20px;*/ 
 }
 
 h2 {
@@ -199,7 +208,6 @@ h2 {
   }
   .col-sm-12 {
     width: 100%;
-  }
   }
 
 }
